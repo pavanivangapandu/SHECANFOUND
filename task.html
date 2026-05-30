@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Can Foundation</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:
+            linear-gradient(rgba(255,182,193,0.4), rgba(255,182,193,0.4)),
+            url('back.jpg');
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        header{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container{
+            width: 85%;
+            margin: auto;
+            text-align: center;
+            padding: 50px;
+            color: black;
+        }
+
+        .content h2{
+            color: blue;
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+
+        .center-image{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .center-image img{
+            width: 500px;
+            border-radius: 10px;
+        }
+
+        .content p{
+            font-size: 20px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+
+        button{
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover{
+            background-color: darkblue;
+        }
+
+        .form-container{
+            display: none;
+            width: 400px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .form-container h3{
+            color: blue;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-btn{
+            width: 100%;
+            background-color: blue;
+            color: white;
+        }
+
+        footer{
+            background-color: blue;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>She Can Foundation</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="content">
+
+            <h2>Empowering Women Through Education</h2>
+
+            <div class="center-image">
+                <img src="side.jpg" alt="Foundation Image">
+            </div>
+
+            <p>
+                She Can Foundation is a non-profit organization dedicated to empowering women through education, skill development, leadership training, and career opportunities. The organization encourages women and young girls to build confidence, achieve independence, and contribute positively to society.
+            </p>
+
+            <p>
+                Our mission is to create equal opportunities for women and inspire them to become strong leaders who can shape a better future. Through awareness programs, mentorship, and educational support, we aim to bring positive change to communities.
+            </p>
+
+            <p>
+                She Can Foundation believes that every woman deserves access to quality education, equal opportunities, and the confidence to achieve her dreams. The organization works to support women from different backgrounds by providing educational guidance, career awareness, leadership development, and skill enhancement programs.
+            </p>
+
+            <p>
+                Through community initiatives, mentorship sessions, and empowerment campaigns, the foundation encourages women to become independent, confident, and socially responsible individuals. We aim to create a positive environment where women can learn, grow, and inspire future generations.
+            </p>
+
+            <p>
+                Our vision is to build a society where women are respected, educated, and empowered to contribute meaningfully to their families, communities, and the nation. Together, we can create a brighter and more equal future for everyone.
+            </p>
+
+            <button onclick="showForm()">Join Us</button>
+
+        </div>
+
+    </div>
+
+    <div class="form-container" id="joinForm">
+
+        <h3>Registration Form</h3>
+
+        <form onsubmit="submitForm(event)">
+
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <input type="tel" placeholder="Enter Phone Number" required>
+
+            <input type="text" placeholder="Enter University Name" required>
+
+            <textarea rows="4" placeholder="Enter Address" required></textarea>
+
+            <button type="submit" class="submit-btn">Submit</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>© 2026 She Can Foundation | All Rights Reserved</p>
+    </footer>
+
+    <script>
+
+        function showForm(){
+            document.getElementById("joinForm").style.display = "block";
+        }
+
+        function submitForm(event){
+            event.preventDefault();
+            alert("You are successfully logged in");
+        }
+
+    </script>
+
+</body>
+</html>
