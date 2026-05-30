@@ -1,62 +1,68 @@
-<<<<<<< HEAD
 # She Can Foundation Website
 
-This project is a simple NGO website developed using HTML, CSS, and JavaScript.  
-The website is designed for the "She Can Foundation" organization, which focuses on empowering women through education and career opportunities.
+## About the Project
+
+She Can Foundation is a simple NGO website developed using HTML, CSS, and JavaScript. The website aims to promote women's empowerment through education, skill development, leadership training, and career opportunities.
+
+The website provides information about the organization and allows users to join the foundation through an online registration form.
 
 ---
 
 ## Features
 
-- Attractive homepage design
-- Background image with pink overlay
-- Responsive layout
-- Center aligned image section
-- Detailed NGO description
-- Join Us button
-- Registration form
-- Success alert message after submission
+* Attractive homepage design
+* Responsive user interface
+* Background image with pink overlay
+* NGO information section
+* Center-aligned image display
+* Join Us button
+* Registration form
+* Success alert message after form submission
 
 ---
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 ---
 
 ## Project Structure
 
 ```text
-shecanfound
+She-Can-Found
 │
-├── index.html
+├── README.md
+├── task.html
 ├── back.jpg
 └── side.jpg
 ```
 
 ---
 
-## How to Run
+## How to Run the Project
 
-1. Download the project folder
-2. Open `index.html`
-3. Run in any browser like Google Chrome
+1. Download or clone the repository.
+2. Open the project folder.
+3. Double-click `task.html` or open it in any web browser.
+4. Explore the website and test the registration form.
+
+---
+
+## Project Description
+
+The She Can Foundation website was created to spread awareness about women's education and empowerment. It highlights the mission, vision, and goals of the organization while providing an easy way for visitors to join and support the foundation.
 
 ---
 
 ## Author
 
-VANGAPANDU PAVANI
+**VANGAPANDU PAVANI**
 
 ---
 
-## Project Purpose
+## Internship Project
 
-This project was created as part of a Web Development internship task to improve frontend development skills and user interface designing.
-=======
-# she-can-found
- She Can Foundation is a non-profit organization dedicated to empowering women through education, skill development, and career opportunities. The foundation supports young girls and women by providing guidance, resources, and encouragement to achieve their goals and build confidence for a brighter and more independent future.
->>>>>>> 988c359d86ed4f63c87beb7a9c913f7902fe2acb
+This project was developed as part of a Web Development Internship task to demonstrate frontend development skills using HTML, CSS, and JavaScript.
